@@ -3,14 +3,39 @@
 }
 
 // TODO: Update edx-bootstrap theme to incorporate these edits.
-.btn, a.btn {
+
+a {
+  color: #4054B2;
+}
+
+.bg-primary {
+  background-color: #0092ff !important;
+}
+
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1204px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+
+
+.btn,
+a.btn {
   text-decoration: none;
+
   &:hover {
     text-decoration: none;
   }
 }
+
 .btn-link {
   text-decoration: underline;
+
   &:hover {
     text-decoration: underline;
   }
@@ -21,28 +46,6 @@
   background-image: url('./assets/dot-pattern-light.png');
   background-repeat: repeat-x;
   background-size: auto 85%;
-}
-
-.username-description {
-  width: auto;
-  position: absolute;
-  left: 1.5rem;
-  top: 5.25rem;
-  color: $gray-500;
-  line-height: 0.9rem;
-  font-size: 0.8rem;
-  font-style: normal;
-  font-weight: 400;
-  margin-left: 0.9rem;
-}
-
-.mb-2rem {
-  margin-bottom: 2rem;
-}
-
-.icon-visibility-off {
-  height: 1rem;
-  color: $gray-500;
 }
 
 .profile-page {
